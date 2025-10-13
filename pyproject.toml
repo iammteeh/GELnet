@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gelnet"
+version = "0.1.0"
+description = "Python implementation of the graphical elastic net algorithm"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "GELnet Developers" }
+]
+keywords = ["graphical-models", "precision-matrix", "elastic-net", "statistics"]
+license = { file = "LICENSE" }
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Mathematics",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+  "numpy>=1.20",
+]
+
+[project.optional-dependencies]
+regression = ["scikit-learn>=1.0"]
+dev = ["pytest>=7", "build>=1.0", "scikit-learn>=1.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gelnet"]
