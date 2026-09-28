@@ -11,3 +11,5 @@ This is especially crucial for highdimensional data, where feature selection mus
 understand a dynamic program and its different modes it can run efficiently on with different work load and queueing scenarios
 
 tbc..
+
+Effectively, using a generative splitting field and any sampling strategy, we can use another search heuristic in parallel to actively compare different hypothesises, how known parameters are distributed and whether different utilisations infer systematic biases that could recover the exact data distribution by tracing back combinatorial results which rule out anomalies otherwise (one of which is another lost (far more feature rich) draft due to confounding environmental maladaptation). 
